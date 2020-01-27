@@ -1,0 +1,323 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap');
+
+
+body{
+	background: #45484d;
+	}
+
+
+
+
+.container1
+{
+   margin-left: 10px;
+    margin-right: 10px;
+    height: 120px;
+    display: flex;
+}
+
+.logo{
+    margin-top: 10px;
+
+}
+
+
+
+
+
+.nav{
+	list-style: none;
+    width:640px;
+    height:10px;
+}
+
+.nav li{
+	display: inline-block;
+	padding: 0px 20px;
+	float: right;
+}
+
+.nav li a {
+	transition: all 0.3 ease 0s;
+}
+
+.nav li a:hover{
+	color: #606060;
+}
+
+
+         /* Section 2 */
+
+.main{
+	margin-top: 70px;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    height:2000px;
+    border-radius: 4px;
+
+
+}
+
+.container2
+{
+    margin-top: 40px;
+    background-color: white;
+    height:350px;
+    display: flex;
+    flex-direction: row;
+}
+
+         /*Leftside*/
+
+.muskoka-img{
+	width:300px;
+    height:300px;
+    margin: 30px;
+    flex: 2;
+}
+
+           /*Right Side*/
+
+.why-muskoka{
+	width:400px;
+    height:300px;     
+    margin: 10px;
+    padding: 30px;
+    flex: 1;
+}
+
+.why-muskoka h1{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	color: #45484d;
+	text-align: center;
+}
+
+.why-muskoka p{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	margin-right: 20px;
+	font-size: 15px;
+	color: #000;
+	text-align: center;
+
+}
+
+.why-muskoka h4{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	color: #000;
+	text-align: center;
+
+}
+
+            /* Section 3 */
+
+.container3{
+	margin-top: 40px;
+    background-color: white;
+    height:276px;
+    display: flex;
+    flex-direction: row;
+}
+
+.about{
+	width:100%;
+    height:276px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.about h1{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	color: #45484d;
+	text-align: center;
+}
+
+.about h2{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	color: #000;
+	text-align: center;
+}
+
+.about p{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	margin-right: 20px;
+	font-size: 15px;
+	color: #000;
+	text-align: center;
+}
+
+/*Section 4*/
+
+.container4
+{
+    margin-top: 10px;
+    background-color: #fff;
+    height:550px;
+    display: flex;
+    flex-direction: row;
+}
+
+         /*Leftside*/
+
+.whyUs-left{
+    width:50%;
+    height:500px;
+    margin: 10px;
+    background-color: #fff;
+    flex: 2;
+}
+
+.whyUs-left h3{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	color: #000;
+	text-align: center;
+}
+
+.whyUs-left p{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	margin-right: 20px;
+	font-size: 15px;
+	color: #000;
+	text-align: center;
+}
+           /*Right Side*/
+
+.whyUs-right{
+    width:50%;
+    height:500px;     
+    margin: 10px;
+    background-color: #fff;
+    flex: 1;
+}
+
+.whyUs-right h3{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	color: #000;
+	text-align: center;
+}
+
+.whyUs-right p{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	margin-right: 20px;
+	font-size: 15px;
+	color: #000;
+	text-align: center;
+}
+
+/*Section 5*/
+
+.container5{
+	margin-top: 40px;
+    background-color: white;
+    height:500px;
+    display: flex;
+    background-color: #fff;
+    flex-direction: row;
+}
+
+
+
+
+.beerImg{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    justify-content:space-around;
+}
+
+
+.ourBeers img{
+	margin: 0 auto;
+    width:200px;
+    height:200px;
+    margin-bottom: 30px;
+}
+
+.ourBeers h3{
+	margin: 0 auto;
+	display: block;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	color: #000;
+	text-align: center;
+}
+
+
+.ourBeers ul{
+	margin: 0 auto;
+	display: block;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #000;
+	text-align: center;
+
+}
+
+
+
+.ourBeers li{
+	list-style: none;
+	display: inline-block;
+	margin-top: 10px;
+		padding: 0px 20px;
+		text-align: center;
+		text-decoration: blink;
+}
+
+.container6{
+	margin-top: 70px;
+    background-color: #45484d;
+    height:276px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact {
+	width:100%;
+    height:276px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+.contact h3{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+}
+
+.contact p{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	margin-right: 20px;
+	font-size: 15px;
+	color: #fff;
+	text-align: center;
+}
+
